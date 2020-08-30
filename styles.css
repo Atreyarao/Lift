@@ -1,0 +1,46 @@
+.main{
+    height:1000px;
+    width: 100%;
+
+}
+
+.rectangle{
+    width: 300px;
+    height: 900px;
+    margin-top: 40px;
+    background-color: #16213e;
+}
+
+.ground-middle{
+    animation-name: bottom-middle;
+    animation-duration: 5s;
+}
+.middle-top{
+    animation-name: middle-top;
+    animation-duration: 5s; 
+}
+
+.lift{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: red;
+top:630px;
+background-image: url("./media/lift.jpg");
+background-position-x: center;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+.arrow{
+    display: flex;
+    flex-direction: column;
+justify-content: space-around;
+}
+
+.fas{
+    font-size: 50px;
+cursor: pointer;
+}
